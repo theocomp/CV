@@ -30,31 +30,47 @@
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
 \name{Théo Compérot} % Your name
-\address{16 Boulevard de Picpus \\ Paris, 75012} % Your address
+\address{30 av. de la Grande Armée \\ Paris, 75017} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
 \address{\faMobilePhone\quad(+33)6 47 95 66 27 \quad \\ \quad \faEnvelopeO \quad theo.comperot@gmail.com\quad \\ \quad \faLinkedin \quad théo-compérot} % Your phone number and email
 \begin{document} 
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	A rajouter:
+% 		- Parler de dku
+%		- Parler des données L1 / L2.
+%		- Passive posting (waiting time analysis, modèles de censure, kaplan-meier)
+%		- Parler des participants
+%		- Parler des gros sets de données
+%		- Parler du nb de données
 %----------------------------------------------------------------------------------------
 
 %\centering\small{Engineering student looking for a 6-month internship in statistics and machine learning, starting around June 2019}
+\begin{rSection}{Professional summary} 
+
+Highly motivated and detail-oriented quantitative analyst in market microstructure with two years hands-on experience. Strong programming skills in Python and experience in dealing with large datasets. Extensive use of Level 1, 2 and 3 market data from main European Primary exchanges and MTFs. Published two research papers on retail flow execution. Currently writing one on Price Reversion and its main drivers across main European exchanges. 
+
+\end{rSection}
+
 \begin{rSection}{Work Experiences} 
 
+\begin{rSubsection}{Euronext Paris}{\bf March 2020 - Present}{Quant Research Analyst}{Paris}
+\item Price reversion across lit venues: analysis of price changes occurring before and after elementary executions on lit markets. Identification of Price Reversion main drivers (volatility, spread, orderbook imbalance). Comparison between participant types (LP, Client, House \& Retail). Publication expected in February 2022. \smallskip
+\item Passive posting resting time across lit venues: compared execution and cancellation probability for passive limit orders inserted at EBBO on main European lit exchanges. \smallskip
+\item Research in retail flow trading costs and mechanisms. Published research:
+\begin{itemize}
+    \item \textit{No free lunch as trading on Equiduct's "Apex" turns out to be more costly than on Euronext's "BestofBook"} (October 2020). Compared Euronext retail execution service and with Equiduct's. Showed that Euronext's BestofBook ouperforms Apex, especially during period of price volatility. 
+    \item \textit{VBBO Trading: a best execution solution for Retail Investors or for Market Makers?} (July 2020). Studied extensively VBBO trading on Equiduct's Apex service for retail flow. Based on QuantHouse data, compared VBBO prices with EBBO prices, showed a deterioration with trade size and orderbook spread. 
+\end{itemize}
+\item Development of best execution reports for retail brokers.
+
+\end{rSubsection}
+
 \begin{rSubsection}{BNP Paribas Asset Management}{\bf June 2019 - Sept 2019}{Data Scientist / Quantitative analyst}{Paris}
-\item[] Credit project : Portfolio optimization based on various factors from value, quality and momentum. Showed that those factors play an important role in explaining the cross-section of corporate bond expected returns. 
+\item[] Credit project : Portfolio optimization based on various factors from value, quality and momentum. Showed that those factors play an important role in explaining the cross-section of corporate bond expected returns. In-depth study of integer programming.
 \end{rSubsection}
 
-\begin{rSubsection}{AXA XL}{\bf June 2018 - Sept 2018}{Pricing Analytics Summer Intern - Natural Perils}{London}
-\item[] Formalized the collective model concept for catastrophic events, study of
-two methods to generate exceedance probability curves : Panjer's recursion ; Discrete Fourier transform method to simulate densities of aggregate losses. Development of R-Shiny applications to help actuaries visualize data and interpret it. 
-\end{rSubsection}
-
-\begin{rSubsection}{Ministry of Education}{\bf Oct 2017 - June 2018}{Oral examiner in Mathematics in Classes Préparatoires aux Grandes Ecoles}{Paris}
+\begin{rSubsection}{French Ministry of Education}{\bf Oct 2017 - June 2018}{Oral examiner in Mathematics in Classes Préparatoires aux Grandes Ecoles}{Paris}
 \item[]\vspace{-1\baselineskip}
 \end{rSubsection}
 
@@ -98,15 +114,6 @@ two methods to generate exceedance probability curves : Panjer's recursion ; Dis
 
 
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Extracurricular Activities}
-\begin{rSubsection}{}{}{}{}
-
-\item \textbf{Hackathon (November 2017)} Attended to the Ernst and Young 24 hours machine learning competition: predicted the selling time of Emmaüs products \smallskip
-\item \textbf{Treasurer of ENSAE's student office} Managed the treasury and accounting for a budget of \euro 100 000 and distributed grants to associations \smallskip
-%\item \textbf{SAS'Discute member} Write articles for the school newspaper
-% \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
-\end{rSubsection}
-\end{rSection}
 
 \begin{rSection}{Programming skills and interests}
 
